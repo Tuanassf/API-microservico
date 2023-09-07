@@ -14,11 +14,11 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Entity
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
 public class CostCenter {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
